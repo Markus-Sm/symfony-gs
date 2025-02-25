@@ -10,5 +10,5 @@ if ($uri === '/index.php' || $uri === '/') {
 } elseif ($uri === '/index.php/show' || $uri === '/show') {
     show_action($_GET['id']);
 }else {
-    header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
+    header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found: :-C');
 }
