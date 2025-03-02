@@ -13,7 +13,7 @@ function show_action($id)
 {
     $post = get_post_by_id($_REQUEST['id']);
     require __DIR__ . '/templates/show.html.php';
-    echo 'power';
+
 }
 
 
