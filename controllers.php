@@ -9,5 +9,5 @@ function list_action()
     require __DIR__ . '/templates/list.html.php';
 }
 
-
+echo "Hello World"
 
